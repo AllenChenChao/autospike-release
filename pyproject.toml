@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autospike"
+version = "0.1.0"
+description = "Public API and examples for AutoSpec signal-to-spike encoding."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+]
+authors = [
+  { name = "AutoSpec Authors" },
+]
+
+[project.scripts]
+autospike = "autospike.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
