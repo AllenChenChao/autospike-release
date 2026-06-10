@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "AutoSpike: A Library for Signal-to-Spike Encoding"
+message: "If you use this software in your research, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: "AutoSpike Authors"
+repository-code: "https://github.com/AllenChenChao/autospike-release"
+url: "https://github.com/AllenChenChao/autospike-release"
+abstract: >
+  AutoSpike is a pure-Python library for converting one-dimensional
+  signals into spike/event representations.  It supports five encoding
+  methods — Poisson, Latency, Differential, LC, and BSA — and
+  provides a unified high-level API, a command-line interface, and
+  quality metrics including MSE, SNR, and correlation.
+keywords:
+  - "spike encoding"
+  - "signal representation"
+  - "event-based processing"
+  - "neuromorphic"
+license: MIT
+version: 0.1.0
+date-released: "2026-06-10"
