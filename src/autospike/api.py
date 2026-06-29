@@ -23,7 +23,7 @@ SUPPORTED_METHODS = {"poisson", "latency", "differential", "lc", "bsa"}
 
 @dataclass(frozen=True)
 class EncodeResult:
-    """Container returned by the public AutoSpec API."""
+    """Container returned by the public AutoSpike API."""
 
     method: str
     spikes: list[Any]

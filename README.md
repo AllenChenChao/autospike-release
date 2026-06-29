@@ -1,6 +1,6 @@
-# AutoSpec
+# AutoSpike
 
-AutoSpec is a small public interface for converting one-dimensional signals into spike/event representations.
+AutoSpike is a small public interface for converting one-dimensional signals into spike/event representations.
 
 This repository is intended to be a clean release surface: public API, command-line usage, synthetic examples, and documentation. Experimental code, private datasets, trained weights, and internal results should stay in the private research repository.
 
@@ -67,7 +67,7 @@ The CLI writes:
 Input:
 
 - A one-dimensional numeric signal.
-- Values may be raw or normalized. By default, AutoSpec normalizes them to `[0, 1]` before encoding.
+- Values may be raw or normalized. By default, AutoSpike normalizes them to `[0, 1]` before encoding.
 
 Python call:
 

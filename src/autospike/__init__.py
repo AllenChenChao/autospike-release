@@ -1,4 +1,4 @@
-"""Public AutoSpec API."""
+"""Public AutoSpike API."""
 
 from .api import EncodeResult, encode_signal
 from .encoders import (

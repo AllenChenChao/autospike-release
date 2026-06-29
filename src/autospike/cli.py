@@ -28,7 +28,7 @@ def _add_common_encode_args(parser: argparse.ArgumentParser) -> None:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(prog="autospike", description="AutoSpec public CLI.")
+    parser = argparse.ArgumentParser(prog="autospike", description="AutoSpike public CLI.")
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     encode = subparsers.add_parser("encode", help="Encode a one-dimensional CSV signal.")

@@ -5,13 +5,13 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "autospike"
 version = "0.1.0"
-description = "Public API and examples for AutoSpec signal-to-spike encoding."
+description = "Public API and examples for AutoSpike signal-to-spike encoding."
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
 ]
 authors = [
-  { name = "AutoSpec Authors" },
+  { name = "AutoSpike Authors" },
 ]
 
 [project.scripts]

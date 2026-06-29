@@ -2,7 +2,7 @@
 
 ## Input Signal
 
-AutoSpec public examples use a single one-dimensional signal.
+AutoSpike public examples use a single one-dimensional signal.
 
 Accepted Python input:
 

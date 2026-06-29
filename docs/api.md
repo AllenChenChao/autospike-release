@@ -1,4 +1,4 @@
-# AutoSpec Public API
+# AutoSpike Public API
 
 The public Python entry point is:
 
@@ -25,7 +25,7 @@ encode_signal(
 Input:
 
 - `signal`: one-dimensional numeric array-like object.
-- `normalize`: if `True`, AutoSpec maps the signal to `[0, 1]` before encoding. If `False`, all values must already be in `[0, 1]`.
+- `normalize`: if `True`, AutoSpike maps the signal to `[0, 1]` before encoding. If `False`, all values must already be in `[0, 1]`.
 
 Methods:
 
